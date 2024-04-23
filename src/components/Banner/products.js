@@ -10,7 +10,7 @@ const Products = (props) => {
         ...new Set(productsData.map(item => item.category))
     ];
 console.log(productsCategory)
-    const filteredProducts = productsData.filter(item => (productsCategory[parseInt(id)] == item.category));
+    const filteredProducts = productsData.filter(item => (productsCategory[parseInt(id)] === item.category));
     
 
     return (
