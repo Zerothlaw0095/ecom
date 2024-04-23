@@ -1,8 +1,8 @@
 import React from 'react';
-import HeroSlider from '../components/sliders/HeroSlider';
+
 import FeaturedSlider from '../components/sliders/FeaturedSlider';
 import SectionsHead from '../components/common/SectionsHead';
-import TopProducts from '../components/product/TopProducts';
+
 import Banner from '../components/Banner/Banner';
 import Products from '../components/Banner/products'
 
